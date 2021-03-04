@@ -24,7 +24,7 @@
 #  if !defined(__STDC_NO_THREADS__)
 #    define THREADING_USE_C11THREADS 1
 #  endif
-#  if !defined(__STDC_NO_THREADS__)
+#  if !defined(__STDC_NO_ATOMICS__)
 #    define THREADING_USE_ATOMICS 1
 #  endif
 #endif
